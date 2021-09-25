@@ -1,24 +1,23 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "qvapay-sdk/sdk",
+    "description": "SDK for QvaPay Gateway connections and APIs",
     "keywords": [
-        ":vendor_name",
+        "qvapay/sdk",
         "laravel",
-        ":package_slug"
+        "sdk"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/qvapay/sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Erih Garcia Cruz",
+            "email": "ecruz@bachecubano.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
-        "spatie/laravel-package-tools": "^1.4.3",
-        "illuminate/contracts": "^8.37"
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.3"
     },
     "require-dev": {
         "nunomaduro/collision": "^5.3",
@@ -30,13 +29,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Qvapay/sdk\\Qvapay\\": "src",
+            "Qvapay/sdk\\Qvapay\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Qvapay/sdk\\Qvapay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Qvapay/sdk\\Qvapay\\QvapayServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Qvapay": "Qvapay/sdk\\Qvapay\\QvapayFacade"
             }
         }
     },

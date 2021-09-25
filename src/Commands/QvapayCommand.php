@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Qvapay/sdk\Qvapay\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class QvapayCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'sdk';
 
     public $description = 'My command';
 
