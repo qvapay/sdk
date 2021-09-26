@@ -17,6 +17,7 @@
     ],
     "require": {
         "php": "^7.3|^8.0",
+        "spatie/laravel-package-tools": "^1.4.3",
         "guzzlehttp/guzzle": "^7.3"
     },
     "require-dev": {

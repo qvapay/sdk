@@ -1,6 +1,6 @@
 <?php
 
-namespace Qvapay/sdk\Qvapay;
+namespace Qvapay\sdk\Qvapay;
 
 use Illuminate\Support\Facades\Facade;
 

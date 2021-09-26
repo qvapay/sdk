@@ -1,10 +1,10 @@
 <?php
 
-namespace Qvapay/sdk\Qvapay;
+namespace Qvapay\sdk\Qvapay;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Qvapay/sdk\Qvapay\Commands\QvapayCommand;
+use Qvapay\sdk\Qvapay\Commands\QvapayCommand;
 
 class QvapayServiceProvider extends PackageServiceProvider
 {
