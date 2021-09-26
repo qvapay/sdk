@@ -1,9 +1,9 @@
 # SDK for QvaPay Gateway connections and APIs
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/qvapay-sdk/sdk.svg?style=flat-square)](https://packagist.org/packages/qvapay-sdk/sdk)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/qvapay-sdk/sdk/run-tests?label=tests)](https://github.com/qvapay-sdk/sdk/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/qvapay-sdk/sdk/Check%20&%20fix%20styling?label=code%20style)](https://github.com/qvapay-sdk/sdk/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/qvapay-sdk/sdk.svg?style=flat-square)](https://packagist.org/packages/qvapay-sdk/sdk)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/qvapay/sdk.svg?style=flat-square)](https://packagist.org/packages/qvapay-sdk/sdk)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/qvapay/sdk/run-tests?label=tests)](https://github.com/qvapay-sdk/sdk/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/qvapay/sdk/Check%20&%20fix%20styling?label=code%20style)](https://github.com/qvapay-sdk/sdk/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/qvapay/sdk.svg?style=flat-square)](https://packagist.org/packages/qvapay-sdk/sdk)
 
 ---
 Lorem Ipsum
