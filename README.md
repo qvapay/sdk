@@ -6,13 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/qvapay-sdk/sdk.svg?style=flat-square)](https://packagist.org/packages/qvapay-sdk/sdk)
 
 ---
-This repo can be used to scaffold a Laravel package. Follow these steps to get started:
-
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this sdk
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files
-3. Remove this block of text.
-4. Have fun creating your package.
-5. If you need help creating a package, consider picking up our <a href="https://laravelpackage.training">Laravel Package Training</a> video course.
+Lorem Ipsum
 ---
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
