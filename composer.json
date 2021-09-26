@@ -1,16 +1,16 @@
 {
-    "name": "qvapay-sdk/sdk",
+    "name": "qvapay/sdk",
     "description": "SDK for QvaPay Gateway connections and APIs",
     "keywords": [
         "qvapay/sdk",
         "laravel",
         "sdk"
     ],
-    "homepage": "https://github.com/qvapay/sdk",
+    "homepage": "https://qvapay.com",
     "license": "MIT",
     "authors": [
         {
-            "name": "Erih Garcia Cruz",
+            "name": "Erich Garcia Cruz",
             "email": "ecruz@bachecubano.com",
             "role": "Developer"
         }
