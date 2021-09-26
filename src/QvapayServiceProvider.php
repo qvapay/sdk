@@ -16,7 +16,7 @@ class QvapayServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('sdk')
-            ->hasConfigFile()
+            ->hasConfigFile();
             //->hasViews()
             //->hasMigration('create_sdk_table')
             //->hasCommand(QvapayCommand::class);
