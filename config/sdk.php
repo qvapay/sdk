@@ -1,5 +1,6 @@
 <?php
-// config for Qvapay/sdk/Qvapay
+// config for Qvapay/sdk
+
 return [
     'app_id' => env('QVAPAY_APP_ID', ''),
     'app_secret' => env('QVAPAY_APP_SECRET', ''),

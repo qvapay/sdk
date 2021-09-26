@@ -1,11 +1,11 @@
 <?php
 
-namespace Qvapay\sdk\Qvapay;
+namespace Qvapay\sdk;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Qvapay\sdk\Qvapay\Qvapay
+ * @see \Qvapay\sdk\Qvapay
  */
 class QvapayFacade extends Facade
 {

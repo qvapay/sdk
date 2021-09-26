@@ -49,8 +49,8 @@ return [
 ## Usage
 
 ```php
-$sdk = new Qvapay/sdk\Qvapay();
-echo $sdk->echoPhrase('Hello, Qvapay/sdk!');
+$sdk = new Qvapay\sdk\Qvapay();
+echo $sdk->echoPhrase('Hello, Qvapay\sdk!');
 ```
 
 ## Testing

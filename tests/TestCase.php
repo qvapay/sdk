@@ -1,10 +1,10 @@
 <?php
 
-namespace Qvapay/sdk\Qvapay\Tests;
+namespace Qvapay\sdk\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Qvapay/sdk\Qvapay\QvapayServiceProvider;
+use Qvapay\sdk\QvapayServiceProvider;
 
 class TestCase extends Orchestra
 {

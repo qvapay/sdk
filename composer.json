@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Qvapay\\sdk\\Qvapay\\": "src"
+            "Qvapay\\sdk\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Qvapay\\sdk\\Qvapay\\Tests\\": "tests"
+            "Qvapay\\sdk\\Tests\\": "tests"
         }
     },
     "scripts": {
