@@ -2,8 +2,6 @@
 
 namespace Qvapay\sdk\Models;
 
-class User {
-
-    
-
+class User
+{
 }
