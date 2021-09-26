@@ -9,7 +9,7 @@ class Qvapay
         echo "1";
     }
 
-    public function getToken() {
-
+    public function getToken()
+    {
     }
 }
