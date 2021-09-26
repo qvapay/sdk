@@ -30,13 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Qvapay/sdk\\Qvapay\\": "src",
-            "Qvapay/sdk\\Qvapay\\Database\\Factories\\": "database/factories"
+            "Qvapay\\sdk\\Qvapay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Qvapay/sdk\\Qvapay\\Tests\\": "tests"
+            "Qvapay\\sdk\\Qvapay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Qvapay/sdk\\Qvapay\\QvapayServiceProvider"
+                "Qvapay\\sdk\\Qvapay\\QvapayServiceProvider"
             ],
             "aliases": {
-                "Qvapay": "Qvapay/sdk\\Qvapay\\QvapayFacade"
+                "Qvapay": "Qvapay\\sdk\\Qvapay\\QvapayFacade"
             }
         }
     },
