@@ -5,7 +5,7 @@ namespace Qvapay\sdk\Qvapay;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Qvapay/sdk\Qvapay\Qvapay
+ * @see \Qvapay\sdk\Qvapay\Qvapay
  */
 class QvapayFacade extends Facade
 {
