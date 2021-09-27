@@ -33,11 +33,6 @@
             "Qvapay\\sdk\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Qvapay\\sdk\\Tests\\": "tests"
-        }
-    },
     "scripts": {
         "test": "./vendor/bin/pest --no-coverage",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
@@ -48,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Qvapay\\sdk\\Qvapay\\QvapayServiceProvider"
+                "Qvapay\\sdk\\QvapayServiceProvider"
             ],
             "aliases": {
-                "Qvapay": "Qvapay\\sdk\\Qvapay\\QvapayFacade"
+                "Qvapay": "Qvapay\\sdk\\QvapayFacade"
             }
         }
     },
