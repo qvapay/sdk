@@ -10,34 +10,28 @@ SDK QvaPay
 
 Librería para el uso remoto de la API de la pasarela de pagos con cripto qvapay.com.
 
-## Installation
+## Installación
 
-You can install the package via composer:
+Puedes instalar el paquete vía composer:
 
 ```bash
 composer require qvapay/sdk
 ```
 
-You can publish and run the migrations with:
+Luegfo puede publicar los ficheros de configuración mediante:
 
-```bash
-php artisan vendor:publish --provider="Qvapay\sdk\QvapayServiceProvider" --tag="sdk-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
 ```bash
 php artisan vendor:publish --provider="Qvapay\sdk\QvapayServiceProvider" --tag="sdk-config"
 ```
 
-This is the contents of the published config file:
+El fichero de configuración posee los ajuste necesarios para comunicarse con la API de Qvapay. Algunos datos opcionales pueden ser el APP_ID y APP_SECRET de su entorno de desarrollo en la pasarela:
 
 ```php
 return [
 ];
 ```
 
-## Usage
+## Uso
 
 ```php
 $qvapay = new Qvapay\sdk\Qvapay();
