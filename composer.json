@@ -2,7 +2,7 @@
     "name": "qvapay/sdk",
     "description": "SDK for QvaPay Gateway connections and APIs",
     "keywords": [
-        "qvapay/sdk",
+        "qvapay",
         "laravel",
         "sdk"
     ],
